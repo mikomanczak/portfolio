@@ -1,0 +1,29 @@
+.education-subsection{
+    position: absolute;
+    top:15vh;
+    height: 25vh;
+    padding-top: 13vh;
+}
+
+.education-subsection ul{
+    display: grid;
+    grid-template-columns: 10fr 74fr;
+    width: 80%;
+    margin: auto;
+}
+
+.education-subsection ul li{
+    height: 3vh;
+    line-height: 3vh;
+}
+.education-subsection ul li:nth-child(2){
+    background-color: lightpink;
+}
+
+.education-descriptions{
+    width:80%;
+    margin: auto;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 10fr 74fr;
+}

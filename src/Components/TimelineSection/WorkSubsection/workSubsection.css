@@ -1,0 +1,42 @@
+.work-subsection{
+    position: absolute;
+    top:40vh;
+    padding-top:13vh;
+}
+
+.work-timeline{
+    display: grid;
+    grid-template-columns: 20fr 44fr 20fr;
+    width: 80%;
+    margin: auto;
+}
+
+.work-timeline li{
+    height: 3vh;
+    line-height: 3vh;
+}
+
+.work-timeline li:nth-child(1){
+    background-color: aliceblue;
+}
+
+.work-timeline li:nth-child(2){
+    background-color: lightblue;
+}
+
+.work-timeline li:nth-child(3){
+    background-color: lightseagreen;
+}
+
+.work-descriptions{
+    width:80%;
+    display: grid;
+    grid-template-columns: 20fr 44fr 20fr; 
+    margin: auto;
+    padding-top: 30px;
+}
+
+.work-descriptions li{
+    padding: 20px;
+}
+

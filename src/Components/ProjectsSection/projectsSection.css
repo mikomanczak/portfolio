@@ -1,0 +1,44 @@
+#projects-section{
+    height: 100vh;
+    background-image: url(./projectsSectionBackground2.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top:60vh;
+}
+
+.reactive-desktop-project-panel{
+    margin:auto;
+    width: 18vw;
+    color: white;
+}
+
+.reactive-desktop-project-headline{
+    font-weight: 300;
+    margin: auto;
+    margin-bottom: 2vh;
+    font-size: 2em;
+}
+
+.reactive-desktop-project-button-active{
+    margin: 2vh 10px;
+    padding:10px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 3px;
+    opacity: 0.95;
+    border:none;
+    cursor: pointer;
+}
+
+.reactive-desktop-project-button-disabled{
+    margin: 2vh 10px;
+    padding:10px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 3px;
+    cursor:default;
+    border:none;
+    opacity: 0.4;
+}
+
+.reactive-desktop-project-button-active:hover{
+    opacity:1
+}

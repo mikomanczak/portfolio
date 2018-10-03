@@ -1,0 +1,45 @@
+.nav-side-bar{
+    position: fixed;
+    left: 10px;
+    top:35vh;
+    width: 10vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    z-index: 2;
+}
+
+
+.side-bar-link{
+    padding:10px;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.side-bar-link-white{
+    color:white;
+}
+.side-bar-link-black{
+    color:black;
+}
+
+.side-bar-link div{
+    display: table;
+    height: 100%;
+}
+
+.side-bar-link div span{
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.side-bar-link .material-icons{
+    font-size: 2.5em;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.side-bar-link .material-icons:hover{
+    opacity: 1;
+}

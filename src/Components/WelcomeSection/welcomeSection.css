@@ -1,0 +1,76 @@
+#welcome-section{
+    height: 100vh;
+    background-image: url(./welcomeSectionBackground.jpg);
+    background-size: cover;
+    padding-top:20vh;
+    box-sizing: border-box;
+}
+
+.profile-panel{
+    background-color: white;
+    opacity: 0.9;
+    margin: auto;
+    width: 480px;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.profile-image{
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 3vh;
+}
+
+.name-headline{
+    font-weight: 300;
+}
+
+.profile-description{
+    text-align: left;
+    line-height: 1.5em;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+
+.profile-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+    width: 80%;
+    margin: auto;
+}
+
+.profile-icon{
+    width:60px;
+    margin-bottom: 10px;
+}
+
+.linkedin::after{
+    content: "LinkedIn";
+    display: block;
+    visibility: hidden;
+}
+
+.linkedin:hover::after{
+    visibility: visible;
+}
+
+.github::after{
+    content: "GitHub";
+    display: block;
+    visibility: hidden;
+}
+
+.github:hover:after{
+    visibility: visible;
+}
+
+.cv::after{
+    content: "CV";
+    display: block;
+    visibility: hidden;
+}
+
+.cv:hover::after{
+    visibility: visible;
+}
