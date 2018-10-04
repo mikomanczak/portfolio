@@ -42,3 +42,22 @@
 .reactive-desktop-project-button-active:hover{
     opacity:1
 }
+
+@media only screen and (max-width: 600px) {
+
+    #projects-section{
+        padding-top: 20vh;
+    }
+
+    .reactive-desktop-project-panel{
+        width: 50vw;
+    }
+
+    .reactive-desktop-project-panel p{
+        font-size:1.2em;
+    }
+
+    .reactive-desktop-project-headline{
+        margin-bottom: 5vh;
+    }
+}
