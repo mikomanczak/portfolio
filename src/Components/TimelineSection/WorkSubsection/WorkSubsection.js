@@ -5,7 +5,7 @@ const WorkSubsection = () => {
     return(
         <div className="work-subsection subsection">
             <ul className="work-timeline">
-                <li>Freelace</li>
+                <li>Freelance</li>
                 <li>Cubitabo</li>
                 <li>Siemens</li>
             </ul>
