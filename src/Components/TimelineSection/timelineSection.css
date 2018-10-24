@@ -42,7 +42,14 @@
 }
 
 @media only screen and (max-width: 600px){
+    #timeline-section{
+        height: 70vh;
+    }
+
     .timeline{
-        top:85vh;
+        top:50vh;
+    }
+    .timeline ul{
+        width: 100%;
     }
 }

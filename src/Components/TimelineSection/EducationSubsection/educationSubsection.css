@@ -32,7 +32,10 @@
 
 
 @media only screen and (max-width: 600px){
-    .university-description span{
+    .education-subsection ul{
+        width: 100%;
+    }
+    .university-description{
         display: none;
     }
 }

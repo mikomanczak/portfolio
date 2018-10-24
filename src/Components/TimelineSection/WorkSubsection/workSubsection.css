@@ -41,7 +41,15 @@
 }
 
 @media only screen and (max-width: 600px){
-    .work-descriptions li span{
+    .work-subsection{
+        top:30vh;
+    }
+    .work-timeline{
+        width: 100%;
+    }
+    
+    .cubitabo-description, .siemens-description, .freelance-description{
         display: none;
     }
+
 }

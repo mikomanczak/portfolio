@@ -7,6 +7,7 @@ class NavSideBar extends Component{
         currentlyHovered: null,
         homeIconColor: 'white',
         timelineIconColor: 'white',
+        stackIconColor: 'white',
         projectsIconColor: 'white',
         contactIconColor: 'white'
     }
@@ -25,7 +26,7 @@ class NavSideBar extends Component{
 
     handleScroll = () => {
         //home icon
-        if(window.scrollY > 0.65 * window.innerHeight -40 && window.scrollY < 1.65*window.innerHeight -40){
+        if(window.scrollY > 0.65 * window.innerHeight -40 && window.scrollY < 2.65*window.innerHeight -40){
             this.setState({
                 homeIconColor: 'black'
             })
@@ -36,7 +37,7 @@ class NavSideBar extends Component{
             })
         }
         //timeline icon
-        if(window.scrollY > 0.65 * window.innerHeight -80 && window.scrollY < 1.65*window.innerHeight -80){
+        if(window.scrollY > 0.65 * window.innerHeight -80 && window.scrollY < 2.65*window.innerHeight -80){
             this.setState({
                 timelineIconColor: 'black'
             })
@@ -46,8 +47,19 @@ class NavSideBar extends Component{
                 timelineIconColor:'white'
             })
         }
+         //stack icon
+         if(window.scrollY > 0.65 * window.innerHeight -140 && window.scrollY < 2.65*window.innerHeight -140){
+            this.setState({
+                stackIconColor: 'black'
+            })
+        }
+        else{
+            this.setState({
+                stackIconColor:'white'
+            })
+        }
         //projects icon
-        if(window.scrollY > 0.65 * window.innerHeight -160 && window.scrollY < 1.65*window.innerHeight - 180){
+        if(window.scrollY > 0.65 * window.innerHeight -200 && window.scrollY < 2.65*window.innerHeight - 200){
             this.setState({
                 projectsIconColor: 'black'
             })
@@ -58,7 +70,7 @@ class NavSideBar extends Component{
             })
         }
          //contact icon
-         if(window.scrollY > 0.65 * window.innerHeight -200 && window.scrollY < 1.65*window.innerHeight - 240){
+         if(window.scrollY > 0.65 * window.innerHeight -260 && window.scrollY < 2.65*window.innerHeight - 260){
             this.setState({
                 contactIconColor: 'black'
             })
@@ -89,6 +101,13 @@ class NavSideBar extends Component{
                     <i className="material-icons">timeline</i>
                     <div>
                     {this.state.currentlyHovered === 'Timeline'? (<span>Timeline</span>):(null)}
+                    </div> 
+                </a>
+
+                <a href="#stack-section" className={'side-bar-link side-bar-link-'+this.state.stackIconColor} onMouseOver={ () => this.setCurrentlyHovered('Stack')} onMouseLeave={this.resetCurrentlyHovered}> 
+                    <i className="material-icons">layers</i>
+                    <div>
+                    {this.state.currentlyHovered === 'Stack'? (<span>Stack</span>):(null)}
                     </div> 
                 </a>
 

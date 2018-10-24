@@ -4,16 +4,26 @@
     background-size: cover;
     padding-top:20vh;
     box-sizing: border-box;
+    
 }
 
 .profile-panel{
     background-color: white;
-    opacity: 0.9;
     margin: auto;
     width: 480px;
     border-radius: 5px;
     padding-top: 50px;
     padding-bottom: 40px;
+    animation-name: profile-panel-animation;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+@keyframes profile-panel-animation{
+    from{opacity: 0.0;}
+    to{opacity: 0.9;}
 }
 
 .profile-image{
@@ -74,4 +84,14 @@
 
 .cv:hover::after{
     visibility: visible;
+}
+
+@media only screen and (max-width: 600px){
+    #welcome-section{
+        padding-top:5vh;
+    }
+    .profile-panel{
+        width: 90%;
+        padding-bottom: 0px;
+    }
 }

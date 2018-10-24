@@ -11,7 +11,7 @@ class ProjectsSection extends Component{
                             (with all the folders and files) as a web app. 
                             I tweaked it since then to be more entertaining.
                             It's probably the best place to get to know me. </p>
-                            <button className="reactive-desktop-project-button-disabled">Demo</button>
+                            <a href="https://mikomanczak.github.io/Reactive-Desktop-Project/"><button className="reactive-desktop-project-button-active">Demo</button></a>
                             <a href="https://github.com/mikomanczak/Reactive-Desktop-Project"><button className="reactive-desktop-project-button-active">GitHub</button></a>
                             
                     
