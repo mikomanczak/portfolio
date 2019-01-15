@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment';
 import './welcomeSection.css';
 import profileImg from './profile.jpg';
 import cvIcon from './cvicon.png';
@@ -13,7 +14,14 @@ const WelcomeSection = () => {
                 <img src={profileImg} className="profile-image" alt="profile picture" />
                 <h2 className="name-headline">Mikołaj Mańczak</h2>
                 <ul className="profile-description">
-                    <li>- 24 years old</li>
+                    <li>- { (() =>
+                            {
+                                let birthday = moment('25/01/1994', 'DD/MM/YYYY');
+                                let now = moment();
+                                return now.diff(birthday, 'years');  
+                            })()
+                    
+                        } years old</li>
                     <li>- Computer science student at Technical University Berlin</li>
                     <li>- working student software developer at Siemens</li>
                     <li>- adaptable and self motivated learner</li>
@@ -25,7 +33,7 @@ const WelcomeSection = () => {
                     <a href="https://github.com/mikomanczak" className="github" target="_blank">
                         <img src={githubIcon} className="profile-icon" alt="gitHub icon" />
                     </a>
-                    <a href="https://raw.githubusercontent.com/mikomanczak/Portfolio/2f7090f8eccc452d28d817efbdf0f97c205050d6/CV.pdf" className="cv" target="_blank">
+                    <a href="https://raw.githubusercontent.com/mikomanczak/Portfolio/e5954322372aa04b62fdc83b98251fcd06b311e6/CV.pdf" className="cv" target="_blank">
                         <img src={cvIcon} className="profile-icon" alt="CV icon" />
                     </a>
                 </div>
