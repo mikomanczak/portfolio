@@ -6,7 +6,7 @@
 
 .work-timeline{
     display: grid;
-    grid-template-columns: 20fr 44fr 20fr;
+    grid-template-columns: 20fr 43fr 21fr;
     width: 80%;
     margin: auto;
 }
@@ -31,13 +31,17 @@
 .work-descriptions{
     width:80%;
     display: grid;
-    grid-template-columns: 20fr 44fr 20fr; 
+    grid-template-columns: 20fr 43fr 21fr; 
     margin: auto;
     padding-top: 30px;
 }
 
 .work-descriptions li{
     padding: 20px;
+}
+
+.work-title{
+    font-weight: 600;
 }
 
 @media only screen and (max-width: 600px){

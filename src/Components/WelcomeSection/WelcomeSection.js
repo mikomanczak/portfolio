@@ -23,7 +23,7 @@ const WelcomeSection = () => {
                     
                         } years old</li>
                     <li>- Computer science student at Technical University Berlin</li>
-                    <li>- working student software developer at Siemens</li>
+                    <li>- working student Software Engineer at Siemens</li>
                     <li>- adaptable and self motivated learner</li>
                 </ul>
                 <div className="profile-icons">
@@ -33,7 +33,7 @@ const WelcomeSection = () => {
                     <a href="https://github.com/mikomanczak" className="github" target="_blank">
                         <img src={githubIcon} className="profile-icon" alt="gitHub icon" />
                     </a>
-                    <a href="https://raw.githubusercontent.com/mikomanczak/Portfolio/e5954322372aa04b62fdc83b98251fcd06b311e6/CV.pdf" className="cv" target="_blank">
+                    <a href="https://raw.githubusercontent.com/mikomanczak/Portfolio/469197f006b7bad828872e5d5bf1144cad9f4e27/CV.pdf" className="cv" target="_blank">
                         <img src={cvIcon} className="profile-icon" alt="CV icon" />
                     </a>
                 </div>
