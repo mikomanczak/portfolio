@@ -22,7 +22,7 @@ const WorkSubsection = () => {
                     <div className="cubitabo-description">
                         <div className="work-title">working student QA and Automation Engineer</div>
                         <span>Sep 2014 – Apr 2018 (3 years 8 months)</span>
-                        <p>Responsible for Quality Assurance and Automation(Java, TestNG, Selenium) while simultaneously holding the position of Scrum Master(enhanced by Attlasian's Jira and Confluence).  Additionally did research, roadmapping and management as I gained experience. </p>
+                        <p>Responsible for Quality Assurance and Automation(Java, TestNG, Selenium) while simultaneously holding the position of Scrum Master(enhanced by Attlasian's Jira and Confluence).  Additionally did data analysis, technical research, roadmapping and management as I gained experience. </p>
                     </div>
                 </li>
                 <li>

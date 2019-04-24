@@ -33,7 +33,7 @@ const WelcomeSection = () => {
                     <a href="https://github.com/mikomanczak" className="github" target="_blank">
                         <img src={githubIcon} className="profile-icon" alt="gitHub icon" />
                     </a>
-                    <a href="https://raw.githubusercontent.com/mikomanczak/Portfolio/fa35aaf6cce1a40b3107ec3b5b95beb0d4439b0e/CV.pdf" className="cv" target="_blank">
+                    <a href="https://raw.githubusercontent.com/mikomanczak/Portfolio/2a881ceda5b9ed41b0269a165dd867e1258fc8c0/CV.pdf" className="cv" target="_blank">
                         <img src={cvIcon} className="profile-icon" alt="CV icon" />
                     </a>
                 </div>
