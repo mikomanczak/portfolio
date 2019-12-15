@@ -6,8 +6,8 @@
 
 .work-timeline{
     display: grid;
-    grid-template-columns: 20fr 43fr 21fr;
-    width: 80%;
+    grid-template-columns: 18fr 45fr 20fr 13fr;
+    width: 85%;
     margin: auto;
 }
 
@@ -28,23 +28,35 @@
     background-color: lightseagreen;
 }
 
+.work-timeline li:nth-child(4){
+    background-color:cornflowerblue;
+}
+
 .work-descriptions{
-    width:80%;
+    width:85%;
     display: grid;
-    grid-template-columns: 20fr 43fr 21fr; 
+    grid-template-columns: 18fr 20fr 25fr 20fr 13fr;
     margin: auto;
     padding-top: 30px;
 }
 
 .work-descriptions li{
-    padding: 20px;
+    padding-top: 20px;
 }
 
 .work-title{
     font-weight: 600;
+    margin-bottom: 15px
 }
 
+
+
 @media only screen and (max-width: 600px){
+    .work-timeline li{
+        height: 6vh;
+        line-height: 6vh;
+    }
+    
     .work-subsection{
         top:30vh;
     }
@@ -52,8 +64,12 @@
         width: 100%;
     }
     
-    .cubitabo-description, .siemens-description, .freelance-description{
+    .cubitabo-description, .siemens-description, .freelance-description, .axel-springer-description{
         display: none;
     }
+    #axel-springer-timeline{
+        line-height: 3vh;
+    }
+    
 
 }

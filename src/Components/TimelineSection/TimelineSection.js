@@ -18,6 +18,7 @@ const TimelineSection = () => {
                     <li>2017</li>
                     <li>2018</li>
                     <li>2019</li>
+                    <li>2020</li>
                 </ul>
             </div>
         </section>

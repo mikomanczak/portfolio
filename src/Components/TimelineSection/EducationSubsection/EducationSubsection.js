@@ -5,7 +5,7 @@ const EducationSubsection = () => {
     return(
         <div className="education-subsection subsection">
             <ul>
-                <li>A levels</li>
+                <li id="a-levels-timeline">A levels</li>
                 <li>Technical University Berlin</li>
             </ul>
             <div className="education-descriptions">

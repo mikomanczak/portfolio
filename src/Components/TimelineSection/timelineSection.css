@@ -25,9 +25,9 @@
 
 .timeline ul{
     margin: auto;
-    width: 80%;
+    width: 85%;
     display:grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
 }
 
 .timeline ul li{
@@ -51,5 +51,9 @@
     }
     .timeline ul{
         width: 100%;
+    }
+    .timeline ul li{
+        height: 5vh;
+        line-height: 5vh;
     }
 }

@@ -14,17 +14,9 @@ const WelcomeSection = () => {
                 <img src={profileImg} className="profile-image" alt="profile picture" />
                 <h2 className="name-headline">Mikołaj Mańczak</h2>
                 <ul className="profile-description">
-                    <li>- { (() =>
-                            {
-                                let birthday = moment('25/01/1994', 'DD/MM/YYYY');
-                                let now = moment();
-                                return now.diff(birthday, 'years');  
-                            })()
-                    
-                        } years old</li>
+                    <li>- Software Engineer at Axel Springer</li>
                     <li>- Computer science student at Technical University Berlin</li>
-                    <li>- working student Software Engineer at Siemens</li>
-                    <li>- adaptable and self motivated learner</li>
+                    <li>- Adaptable and self motivated learner</li>
                 </ul>
                 <div className="profile-icons">
                     <a href="https://linkedin.com/in/mikolaj-manczak/" className="linkedin" target="_blank">
@@ -33,7 +25,7 @@ const WelcomeSection = () => {
                     <a href="https://github.com/mikomanczak" className="github" target="_blank">
                         <img src={githubIcon} className="profile-icon" alt="gitHub icon" />
                     </a>
-                    <a href="https://raw.githubusercontent.com/mikomanczak/Portfolio/2a881ceda5b9ed41b0269a165dd867e1258fc8c0/CV.pdf" className="cv" target="_blank">
+                    <a href="https://raw.githubusercontent.com/mikomanczak/Portfolio/aa55bef33ed270ddef067444fd49f45c6f36e086/CV.pdf" className="cv" target="_blank">
                         <img src={cvIcon} className="profile-icon" alt="CV icon" />
                     </a>
                 </div>

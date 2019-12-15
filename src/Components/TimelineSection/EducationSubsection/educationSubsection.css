@@ -8,7 +8,7 @@
 .education-subsection ul{
     display: grid;
     grid-template-columns: 10fr 74fr;
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 
@@ -34,6 +34,13 @@
 @media only screen and (max-width: 600px){
     .education-subsection ul{
         width: 100%;
+    }
+    #a-levels-timeline{
+        line-height: 3vh;
+    }
+    .education-subsection ul li{
+        height: 6vh;
+        line-height: 6vh;
     }
     .university-description{
         display: none;
